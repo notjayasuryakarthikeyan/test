@@ -1,2 +1,7 @@
 name = input(' Enter your name')
-print(name,'is hungry')
+hungry = input("Are you hungry")
+if hungry == 'yes':
+    print(name,'is hungry')
+else:
+    print(name, 'is not hungry')
+
